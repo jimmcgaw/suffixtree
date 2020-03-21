@@ -1,6 +1,6 @@
 {
   "name": "suffixtree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Suffix tree implementation in JavaScript",
   "main": "suffixtree.js",
   "scripts": {
