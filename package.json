@@ -1,0 +1,20 @@
+{
+  "name": "suffixtree",
+  "version": "0.0.1",
+  "description": "Suffix tree implementation in JavaScript",
+  "main": "suffixtree.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc ./suffixtree.ts --skipLibCheck",
+    "test": "npm run build && ./node_modules/.bin/ts-node node_modules/jasmine/bin/jasmine tests/**/*.test.ts"
+  },
+  "author": "Jim McGaw",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jasmine": "^3.5.9",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.0.0",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  }
+}
